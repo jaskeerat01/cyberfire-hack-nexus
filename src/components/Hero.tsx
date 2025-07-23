@@ -1,7 +1,5 @@
 import { Button } from "@/components/ui/button";
 
-const NAVBAR_HEIGHT = 64; // 4rem
-
 const Hero = () => {
   return (
     <section className="relative flex items-center justify-center overflow-hidden min-h-[calc(100vh-4rem)] pt-16">
@@ -59,10 +57,10 @@ const Hero = () => {
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" className="btn-primary text-lg px-8 py-4">
+          <Button size="lg" className="btn-primary text-lg px-8 py-4 cursor-target">
             Register Now
           </Button>
-          <Button size="lg" className="btn-secondary text-lg px-8 py-4">
+          <Button size="lg" className="btn-secondary text-lg px-8 py-4 cursor-target">
             Learn More
           </Button>
         </div>
